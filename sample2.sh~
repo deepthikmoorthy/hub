@@ -1,0 +1,11 @@
+a=$1
+b=$2
+echo "$((a + b))"
+if [ $a == $b ]
+then
+ echo "equal"
+else
+ echo "not equal"
+fi
+mv classlist.txt a.txt
+echo $?
